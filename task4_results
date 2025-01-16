@@ -1,0 +1,8 @@
+# Performance Evaluation of Pandas, Polars, and Pyspark
+The evaluation of the python packages were performed with two tests on a heterogeneous and a homogeneous dataset.
+1) Loading times of each dataset.
+2) Profiling performance for a basic profiling step.
+
+- In almost all categories, pandas outperformed the other tasks greatly. Pandas also holds the advantage personally for ease of use due to my familiarity with it.
+- Polars mainly suffered in its loading speed of the hetrogeneous dataset where it lagged compared to the others. Elsewhere, its performace was just shadowed by pandas.
+- Pyspark fell behind in all but one category, the loading speed of the hetrogeneous dataset. Here, it outperformed the others by a significant margin.
